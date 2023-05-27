@@ -1,0 +1,4 @@
+1. center content using scss
+2. padding x and y in scss
+3. shadow in sass
+4. passing props in function (react)
