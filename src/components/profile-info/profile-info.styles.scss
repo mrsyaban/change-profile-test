@@ -1,7 +1,42 @@
+.profile-info {
+    display: flex;
+    padding: 15px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
 .profile-photo {
     background-color: #E0E0E0;
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 56px;
     height: 56px;
     border-radius: 8px;
+    box-shadow: 4px 4px 8px 0px rgba(0, 41, 132, 0.25);
+}
+
+
+.profile-desc {
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.profile-name {
+    font-family: 'Nunito';
+    font-style: normal;
+    padding: px 0px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.profile-class {
+    font-family: 'Nunito';
+    font-style: normal;
+    padding: px 0px;
+    font-weight: 400;
+    font-size: 12px;
 }

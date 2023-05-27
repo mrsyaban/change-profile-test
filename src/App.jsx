@@ -6,9 +6,7 @@ import Title from './components/title/title.component';
 const App = () => {
   return (
     <Routes>
-        <Route path='/' element={<Title/>}>
-          <Route path='profile' element={<Profile/>}/>
-        </Route>
+        <Route path='/' element={<Profile/>}/>
     </Routes>
   );
 }

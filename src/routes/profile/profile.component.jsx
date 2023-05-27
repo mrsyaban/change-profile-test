@@ -8,6 +8,7 @@ import ProfileInfo from '../../components/profile-info/profile-info.component'
 const Profile = () => {
     return (
         <div className="profile">
+            <Title name="Profil"/>
             <ProfileInfo/>
             
             <Content/><Content/><Content/>
