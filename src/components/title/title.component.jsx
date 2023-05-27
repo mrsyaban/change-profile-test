@@ -1,4 +1,5 @@
-import { Outlet } from 'react-router-dom';
+
+import { Link } from 'react-router-dom';
 import {ReactComponent as BackIcon} from '../../assets/back-icon.svg';
 
 import './title.styles.scss';
@@ -6,9 +7,10 @@ import './title.styles.scss';
 const Title = (props) => {
     return (
         <div className="title">
-            <BackIcon className='back-icon'/>
+            <Link to={props.backpath}>
+                <BackIcon className='back-icon'/>
+            </Link>
             {props.name}
-            <Outlet/>
         </div>
     );
 }

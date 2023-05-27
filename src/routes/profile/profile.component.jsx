@@ -8,7 +8,7 @@ import ProfileInfo from '../../components/profile-info/profile-info.component'
 const Profile = () => {
     return (
         <div className="profile">
-            <Title name="Profil"/>
+            <Title name="Profil" backpath='/'/>
             <ProfileInfo/>
             
             <Content/><Content/><Content/>
