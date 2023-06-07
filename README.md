@@ -7,6 +7,8 @@
   </p>
 </div>
 
+> composed to fulfill Finplan Internship Test
+
 ### Built With
 
 This Project was built with some tools
